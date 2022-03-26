@@ -1,7 +1,7 @@
 import Menu from "../components/menu";
 
 
-export default function About() {
+export default function Candy() {
   return (
     <div className="site">
       <div className="site_wrapper">
@@ -9,13 +9,40 @@ export default function About() {
           <Menu></Menu>
         </div>
         <div className="site_content">
-          <div className="content_about">
-            <div className="about_about">
-              <div className="day">About Halloween Night</div>
-              <div className="night"><p>Night at all the saints, or all the [something?], is celebrated on October 31 and it is a very fun international celebration, this celebration comes from ancient origins, and is already celebrated by everyone.</p></div>
-              <div className="about_button">Know more</div>
+          <div className="content_candy">
+            <div className="about_candy">
+              <div className="trick">Trick Or Treat</div>
+              <div className="candys">
+                <div className="toffee_ram">
+                  <div className="toffee_img"></div>
+                  <div className="toffee_about"><p>Toffee</p>[что то]<p>$9.99</p></div>
+                </div>
+                <div className="toffee_ram">
+                  <div className="bone_img"></div>
+                  <div className="toffee_about"><p>Bone</p>[что то]<p>$6.99</p></div>
+                </div>
+                <div className="toffee_ram">
+                  <div className="scare_img"></div>
+                  <div className="toffee_about"><p>Scare</p>[что то]<p>$19.99</p></div>
+                </div>
+              </div>
+              <div className="candys">
+                <div className="toffee_ram">
+                  <div className="candy_img"></div>
+                  <div className="toffee_about"><p>Candy Cane</p>[что то]<p>$3.99</p></div>
+                </div>
+                <div className="toffee_ram">
+                  <div className="pumpkin_img"></div>
+                  <div className="toffee_about"><p>Pumpkin</p>[что то]<p>$39.99</p></div>
+                </div>
+                <div className="toffee_ram">
+                  <div className="ghost_img"></div>
+                  <div className="toffee_about"><p>Ghost</p>[что то]<p>$119.99</p></div>
+                </div>
+              </div>
+
             </div>
-            <div className="about_img"></div>
+    
             
            
            

@@ -1,7 +1,7 @@
 import Menu from "../components/menu";
 
 
-export default function About() {
+export default function Support() {
   return (
     <div className="site">
       <div className="site_wrapper">
@@ -9,13 +9,13 @@ export default function About() {
           <Menu></Menu>
         </div>
         <div className="site_content">
-          <div className="content_about">
-            <div className="about_about">
+          <div className="content_support">
+            <div className="about_support">
               <div className="day">About Halloween Night</div>
               <div className="night"><p>Night at all the saints, or all the [something?], is celebrated on October 31 and it is a very fun international celebration, this celebration comes from ancient origins, and is already celebrated by everyone.</p></div>
-              <div className="about_button">Know more</div>
+              <div className="support_button">Know more</div>
             </div>
-            <div className="about_img"></div>
+            <div className="support_img"></div>
             
            
            

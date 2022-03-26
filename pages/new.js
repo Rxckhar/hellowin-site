@@ -1,7 +1,7 @@
 import Menu from "../components/menu";
 
 
-export default function About() {
+export default function New() {
   return (
     <div className="site">
       <div className="site_wrapper">
@@ -9,13 +9,12 @@ export default function About() {
           <Menu></Menu>
         </div>
         <div className="site_content">
-          <div className="content_about">
-            <div className="about_about">
-              <div className="day">About Halloween Night</div>
-              <div className="night"><p>Night at all the saints, or all the [something?], is celebrated on October 31 and it is a very fun international celebration, this celebration comes from ancient origins, and is already celebrated by everyone.</p></div>
-              <div className="about_button">Know more</div>
+          <div className="content_new">
+            <div className="about_new">
+              
+              
             </div>
-            <div className="about_img"></div>
+            <div className="new_img"></div>
             
            
            
